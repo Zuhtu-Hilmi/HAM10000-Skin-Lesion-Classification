@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Dataset, Modeller ve Çıktılar (Büyük dosyalar)
+dataset/
+outputs/
+*.pth
+*.npy
+*.zip
+
+# İşletim Sistemi Dosyaları
+.DS_Store
