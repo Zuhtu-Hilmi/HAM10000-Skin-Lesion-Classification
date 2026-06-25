@@ -34,12 +34,10 @@ We compared classical Machine Learning algorithms (k-NN, SVM) with Transfer Lear
 
 ## 📈 Visual Analysis
 
-*(Note: Ensure you place your images in the `images/` folder for these to display correctly)*
-
 ### ResNet50 Confusion Matrix
 <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="600"/>
 
-### ROC Curves (One-vs-Rest)
+### ResNet50 ROC Curves (One-vs-Rest)
 <img src="images/roc_curve.png" alt="ROC Curve" width="600"/>
 
 ## 📁 Repository Structure
@@ -47,10 +45,10 @@ We compared classical Machine Learning algorithms (k-NN, SVM) with Transfer Lear
 ```text
 HAM10000-Skin-Lesion-Classification/
 │
-├── dataset/                  # Ensure dataset zip is extracted here
+├── dataset/
 │   └── .keep
-├── images/                   # Contains plots for README
-├── src/                      # Source code
+├── images/
+├── src/
 │   ├── 0.0_kurulum_veri_indirme.py
 │   ├── 0.5_klasor_duzenleme.py
 │   ├── 1_veri_bolme.py
@@ -58,6 +56,8 @@ HAM10000-Skin-Lesion-Classification/
 │   ├── 3_transfer_ogrenme.py
 │   ├── 4_degerlendirme_ablasyon.py
 │   └── 5_modelleri_kaydetme.py
+├── notebooks/
+│   └── Cilt_Kanseri.ipynb
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
@@ -69,7 +69,7 @@ HAM10000-Skin-Lesion-Classification/
 1. Clone the repository:
     ```Bash
 
-    git clone https://github.com/YOUR_USERNAME/HAM10000-Skin-Lesion-Classification.git
+    git clone https://github.com/Zuhtu-Hilmi/HAM10000-Skin-Lesion-Classification.git
     cd HAM10000-Skin-Lesion-Classification
     ```
 
